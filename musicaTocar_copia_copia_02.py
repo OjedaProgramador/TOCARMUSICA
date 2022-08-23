@@ -39,4 +39,3 @@ print(f'{i:=^50}')
 #
 
 
-#programa de tocar músicas
