@@ -9,8 +9,9 @@ while True:
     if res == 'N':
         print('FIM DO PROGRAMA')
         break
-    escolha = str(input('Qual música --> Amigos tão fiéis; --> Cara de golpe ')).strip().upper()
-    if escolha == 'AMIGO':
+    print('''Qual Música quer ouvir:\nopção:01 - Amigos tão fiéis\nopção:02 - Cara de golpe   ''')
+    escolha = int(input('Qual música:\n 01\n 02\n =  '))
+    if escolha == 1:
         print('ouvindo a musica amigos')
         pygame.init()
         pygame.mixer.music.load('pkon_T_002.wav')
@@ -18,7 +19,7 @@ while True:
         input()
         pygame.event.wait()
 
-    elif escolha == 'CARA':
+    elif escolha == 2:
         print('Cara de golpe')
         pygame.init()
         pygame.mixer.music.load('Cara-de-Golpe.wav')
@@ -36,6 +37,6 @@ while True:
 i = 'VOLTEM SEMPRE'
 print(f'{i:=^50}')
 
-#
+
 
 
