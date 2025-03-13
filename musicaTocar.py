@@ -1,6 +1,6 @@
 import pygame
 
-res = str(input('Quer ouvir uma boa nusica agora: [SIM/NÃO]: ')).strip().upper()
+res = str(input('Quer ouvir uma boa musica agora: [SIM/NÃO]: ')).strip().upper()
 if res == 'SIM':
     escolha = str(input('Qual música --> Amigos tão fiéis; --> Cara de golpe ')).strip().upper()
     if escolha == 'AMIGOS':
